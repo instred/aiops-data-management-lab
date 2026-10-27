@@ -1,0 +1,17 @@
+AIOPS OPERATIONAL DATA SUMMARY
+===================================
+
+Total observations: 20
+Unique hosts: 1
+Average CPU utilization (%): 47.55
+Maximum CPU utilization (%): 97.0
+Average memory utilization (%): 69.6
+Average response time (ms): 288.25
+Total HTTP 5xx errors: 63
+Records flagged for investigation: 3
+
+Investigation Details
+-----------------------------------
+2026-10-20T09:30:00 | app-server-01 | CPU=95.0% | Memory=88.0% | Latency=950.0 ms | HTTP 5xx=18
+2026-10-20T09:35:00 | app-server-01 | CPU=97.0% | Memory=91.0% | Latency=1200.0 ms | HTTP 5xx=25
+2026-10-20T09:40:00 | app-server-01 | CPU=92.0% | Memory=89.0% | Latency=870.0 ms | HTTP 5xx=14
